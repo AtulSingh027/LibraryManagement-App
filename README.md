@@ -84,12 +84,12 @@ npm start
 ## 📝 API Endpoints
 | Method  | Endpoint           | Description      |
 |---------|--------------------|-----------------|
-| **POST** | `/api/signup/`   | User Signup     |
-| **POST** | `/api/login/`    | User Login      |
-| **GET**  | `/api/books/`    | View all books  |
-| **POST** | `/api/books/`    | Add a new book  |
-| **PUT**  | `/api/books/:id/` | Update a book   |
-| **DELETE** | `/api/books/:id/` | Delete a book |
+| **POST** | `/Lib/Signup/`   | User Signup     |
+| **POST** | `/Lib/Login/`    | User Login      |
+| **GET**  | `/Lib/Books/`    | View all books  |
+| **POST** | `/Lib/Books/`    | Add a new book  |
+| **PUT**  | `/Lib/Books/:pk/` | Update a book   |
+| **DELETE** | `/Lib/Books/:pk/` | Delete a book |
 
 ---
 
@@ -107,7 +107,6 @@ When sending an image via API, use **FormData**.
 ---
 
 ## 📌 Important Notes
-- Make sure **MySQL/PostgreSQL** is installed and running.
 - Update `DATABASES` in `settings.py` with your **database credentials**.
 - Use **Postman** or **React frontend** to test API.
 
