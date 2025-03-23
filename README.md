@@ -48,7 +48,7 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-### 6️⃣ Create Superuser (Admin)
+### 6️⃣ Create Superuser (Admin) fully optionall
 ```sh
 python manage.py createsuperuser
 ```
